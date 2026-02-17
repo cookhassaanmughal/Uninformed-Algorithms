@@ -14,6 +14,28 @@ This repository contains modular implementations of algorithms and dynamic/grid 
 - `constants.py` — Project-wide constants and configuration values.
 - `__pycache__/` — Compiled Python files (auto-generated).
 
+
+# AI Grid Pathfinder – Uninformed Search Visualization
+
+## Description
+This project implements and visualizes six uninformed search algorithms in a dynamic grid environment.
+
+Algorithms Included:
+- Breadth-First Search (BFS)
+- Depth-First Search (DFS)
+- Uniform-Cost Search (UCS)
+- Depth-Limited Search (DLS)
+- Iterative Deepening DFS (IDDFS)
+- Bidirectional Search
+
+The system visualizes:
+- Frontier nodes
+- Explored nodes
+- Final path
+- Dynamic obstacles that spawn during execution
+- Automatic re-planning behavior
+
+
 ## Requirements
 
 - Python 3.8+ (Anaconda recommended, but not required).
